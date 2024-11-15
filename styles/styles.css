@@ -88,6 +88,7 @@ body {
     top: 30%;
     left: 10%;
     color: white;
+    line-height: 1.5;
 }
 
 .primary-heading {
@@ -106,6 +107,7 @@ body {
 .primary-text {
     font-size: 18px;
     margin-bottom: 64px;
+    line-height: 1.5;
 }
 
 .btn {
@@ -198,4 +200,49 @@ body {
     position: absolute;
     left: 53%;
     bottom: -25px;
+}
+
+.inside-hm {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.left-side-hm {
+    position: absolute;
+    top: -50px;
+}
+
+.belt-section {
+    margin-top: 50px;
+    display: flex;
+    width: 60%;
+}
+
+.belt-section img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.belt-section p {
+    padding: 16px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.right-side-hm {
+    position: relative;
+    left: 60%;
+    bottom: -100px;
+    width: 50%;
+}
+
+
+.accessorise {
+    background: #b89f5d;
+    width: 400px;
+    height: 300px;
+    padding: 100px 14px 0 14px;
+    color: white;
 }
